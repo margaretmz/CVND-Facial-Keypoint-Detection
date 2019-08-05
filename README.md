@@ -24,9 +24,13 @@ __models.py__ : Define the neural network architectures
 
 __data_load.py__ : Load and transform data
 
-__data/__ : Where the training and test data are located. Data will be downloaded using Notebook 1.
+__data/__ : Where the training and test data are download
 
 __saved_model/__ : Where you save the trained PyTorch model
+
+### Data
+
+Use *Notebook 1: Loading and Visualizing Data* to download and explore the data for the project. In the folder `data` are training and tests set of image/keypoint data, and their respective csv files. 
 
 ## Project Instructions
 
@@ -76,27 +80,3 @@ pip install -r requirements.txt
 ```
 
 
-### Data
-
-All of the data you'll need to train a neural network is in the P1_Facial_Keypoints repo, in the subdirectory `data`. In this folder are training and tests set of image/keypoint data, and their respective csv files. This will be further explored in Notebook 1: Loading and Visualizing Data, and you're encouraged to look trough these folders on your own, too.
-
-
-## Notebooks
-
-1. Navigate back to the repo. (Also, your source environment should still be activated at this point.)
-```shell
-cd
-cd P1_Facial_Keypoints
-```
-
-2. Open the directory of notebooks, using the below command. You'll see all of the project files appear in your local environment; open the first notebook and follow the instructions.
-```shell
-jupyter notebook
-```
-
-3. Once you open any of the project notebooks, make sure you are in the correct `cv-nd` environment by clicking `Kernel > Change Kernel > cv-nd`.
-
-__NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality and answer all of the questions included in the notebook. __Unless requested, it's suggested that you do not modify code that has already been included.__
-
-
-LICENSE: This project is licensed under the terms of the MIT license.
